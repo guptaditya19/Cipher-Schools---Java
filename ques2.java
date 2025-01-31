@@ -1,4 +1,4 @@
-public class ques1 {
+public class ques2 {
     public static void main(String[] args) {
         int intVar = 10;
         double doubleVar = 20.5;
