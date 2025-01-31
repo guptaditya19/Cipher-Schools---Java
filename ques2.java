@@ -1,7 +1,9 @@
+import java.io.PrintStream;
 import java.util.Scanner;
 
 public class ques2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        System.setOut(new PrintStream(System.out, true, "UTF-8"));
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the total cart amount: ");
         double totalCartAmount = scanner.nextDouble();
